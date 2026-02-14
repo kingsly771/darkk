@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saint-Valentin - Mon Chatounet</title>
+
+<!-- Import Neo Gaming Font -->
+<link href="https://fonts.cdnfonts.com/css/neo-gaming" rel="stylesheet">
+
+<style>
+  /* --- Style Global --- */
+  body {
+    margin: 0;
+    font-family: 'Neo Gaming', sans-serif; /* Changement de police */
+    background-color: #000; /* Fond noir */
+    color: #d4af37; /* Texte doré */
+    line-height: 1.6;
+  }
+
+  a { text-decoration: none; color: inherit; }
+
+  /* --- Header --- */
+  header {
+    text-align: center;
+    padding: 60px 20px 40px;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  /* --- Section Poème --- */
+  .poem {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-size: 1.1em;
+    background: rgba(255, 215, 0, 0.05); /* Doré léger en arrière-plan */
+    border-radius: 12px;
+    position: relative;
+  }
+  .poem::before {
+    content: "🌹";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 2em;
+  }
+  .poem::after {
+    content: "🌹";
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    font-size: 2em;
+  }
+
+  /* --- Timeline Dates --- */
+  .timeline {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-left: 3px solid #d4af37;
+    position: relative;
+  }
+  .timeline div {
+    margin: 20px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+  .timeline div::before {
+    content: "💘";
+    position: absolute;
+    left: -25px;
+    top: 0;
+    font-size: 1.5em;
+  }
+
+  /* --- Mini-Jeu interactif --- */
+  .flowers {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .flower {
+    font-size: 2em;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .flower:hover {
+    transform: scale(1.3);
+  }
+
+  /* --- Footer --- */
+  footer {
+    background-color: #111;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+    font-family: 'Neo Gaming', sans-serif; /* Footer aussi en Neo Gaming */
+  }
+  footer span.heart {
+    color: red;
+    margin: 0 5px;
+  }
+  footer span.rose {
+    color: crimson;
+    margin: 0 5px;
+  }
+
+  /* --- Responsive --- */
+  @media(max-width: 600px){
+    header h1 { font-size: 2em; }
+    .poem { font-size: 1em; padding: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>💛 Ma Saint-Valentin avec mon Chatounet 💛</h1>
+</header>
+
+<!-- Poème -->
+<section class="poem">
+🌹 Mon Chatounet d’amour 🌹<br>
+En ce jour de Saint-Valentin,<br>
+Mon petit chaton, mon Chatounet, mon akuchou câlin,<br>
+Je veux te dire tout doucement<br>
+Que je t’aime plus que les étoiles brillent au firmament ✨<br>
+Mon bébé, mon trésor, mon cœur sucré 🍫<br>
+Je suis tellement heureuse que tu m’aies demandé ce chocolat…<br>
+Ce simple geste était comme une promesse,<br>
+Un petit moment rempli de tendresse.<br>
+Depuis, il y a nos aventures,<br>
+Nos rires, nos regards qui murmurent,<br>
+Nos flirts timides et nos taquineries,<br>
+Nos messages tard le soir remplis de folie 💕<br>
+J’aime ta jalousie quand elle me prouve que tu tiens à moi,<br>
+J’aime ta protection, quand tu te mets devant moi comme un roi 👑<br>
+Mon protecteur, mon doudou, mon amour fou,<br>
+Même quand tu fais le dur, je vois ton cœur tout doux.<br>
+Mon Chatounet, mon chaton, mon akuchou adoré,<br>
+Je suis heureuse d’être à tes côtés.<br>
+J’aime ton sourire, j’aime ta voix,<br>
+J’aime absolument tout chez toi.<br>
+Aujourd’hui et pour mille autres lendemains,<br>
+Je veux rester dans tes bras, main dans la main 🤍<br>
+Parce que toi et moi, c’est notre petite histoire magique,<br>
+Mon amour unique, mon cœur romantique.<br>
+Bonne Saint-Valentin, mon Chatounet 💋
+</section>
+
+<!-- Timeline Dates -->
+<section class="timeline">
+  <div><strong>6 janvier</strong> : premier anniversaire passé à tes côtés… Moment exceptionnel 🌹</div>
+  <div><strong>11 janvier</strong> : mise en couple après flirts, promesse de rester là l’un pour l’autre 💕</div>
+  <div><strong>14 février</strong> : Saint-Valentin, cadeau pour montrer mon amour à distance 💘</div>
+  <div><strong>11 mai</strong> : mon anniversaire à venir ; rien que toi comme cadeau le rendra parfait 💞</div>
+</section>
+
+<!-- Mini-Jeu interactif -->
+<section class="flowers">
+  <span class="flower">🌹</span>
+  <span class="flower">💘</span>
+  <span class="flower">🌹</span>
+  <span class="flower">💞</span>
+  <span class="flower">🌹</span>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>
+  𝓕𝓸𝓻 𝓶𝔂 𝓸𝓫𝓼𝓮𝓼𝓼𝓲𝓸𝓷, 𝓶𝔂 𝓿𝓮𝓻𝓽 𝓸𝔀𝓷....<br>
+  𝓕𝓸𝓻 𝔂𝓸𝓾 𝓶𝔂 𝓵𝓸𝓿𝓮 𝓶𝔂 𝓱𝓮𝓪𝓻𝓽 𝓶𝔂 𝓵𝓲𝓯𝓮 𝓐𝓴𝓾𝓻𝓸 𝓣𝓪𝓴𝓮𝓭𝓪<span class="heart">💞</span><span class="heart">💘</span><br>
+  𝓟𝓪𝓻 𝓽𝓪 𝓫𝓲𝓮𝓷 𝓪𝓲𝓶𝓮́ 𝓨𝓾𝓷𝓪 ..... 𝓣𝓪 𝓯𝓮𝓶𝓶𝓮 𝓻𝓲𝓮𝓷 𝓺𝓾'𝓪̀ 𝓽𝓸𝓲 𝓹𝓸𝓾𝓻 𝓽𝓸𝓾𝓳𝓸𝓾𝓻𝓼 <span class="rose">💞</span>
+  </p>
+</footer>
+
+</body>
+</html>
